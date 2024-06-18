@@ -104,6 +104,18 @@
     justify-content: space-between;
 }
 
+.item-info-3{
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-info-4{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .item-content h3{
     padding-top: 28px;
     font-weight: 600;
@@ -207,4 +219,15 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 43.57px;
+}
+
+.footer{
+    height: 770px;
+    /* padding-top: 185px; */
+    background-color: #C9CACC;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
 }
