@@ -221,13 +221,40 @@
     line-height: 43.57px;
 }
 
-.footer{
-    height: 770px;
-    /* padding-top: 185px; */
-    background-color: #C9CACC;
+@media screen and (min-width: 768px) {
+    .container{
+        min-width: 768px;
+    }
+
+    .mt-item{
+        width: 50%;
+        max-width: 318px;
+        padding-right: 64px;
+        padding-bottom: 60px;
+    }
 }
 
-.footer-content{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 480px) {
+    .container{
+        min-width: 480px;
+    }
+
+    .mt-item{
+        width: 100%;
+        max-width: 318px;
+        padding-right: 64px;
+        padding-bottom: 60px;
+    }
 }
+
+ 
+
+ 
+ 
+ 
+
+           
+           
+           
+          
+          
