@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Оформление заказа</title>
+</head>
+<body>
+    <header class="header">
+        <div class="mt-delivery">
+          Единый номер доставки
+          <span>99871 200-89-89</span>
+        </div>
+        <div class="mt-logo">
+          <img src="img/MAYTAY-BLOCKS_03 2.jpg" alt="MayTay-logo" />
+          <span class="mt-restaurant">MAYYOR.</span
+          ><span class="mt-rest">TAYYOR</span>
+          <span>Ресторан Японской кухни</span>
+        </div>
+        <div class="mt-btn">
+          <button class="mt-login">Войти</button>
+          <button class="mt-basket">Корзина | <span>3</span></button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3 class="payment-title">Оформление заказа</h3>
+
+        <!-- <div class="process-content">
+            <div class="process-type">
+                <div class="process-del">
+                    Доставка
+                </div>
+                <div class="process-pu">
+                    Самовывоз
+                </div>
+            </div>
+
+            <div class="process-order">
+                Ваш заказ
+            </div>
+        </div> -->
+
+        <div class="payment-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="nav nav-tabs mt-tab" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Доставка</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Улица" aria-label="Улица" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Дом" aria-label="Дом" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Адресс" aria-label="Адресс" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Квартира" aria-label="Квартира" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Подьезд" aria-label="Подьезд" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Код двери" aria-label="Код двери" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-6">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Этаж" aria-label="Этаж" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                                <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Коментарий к заказу" aria-label="Коментарий к заказу" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Коментарий к заказу" aria-label="Коментарий к заказу" 
+                                        aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="order-items">
+                        <h4 class="order-title"> Ваш заказ</h4>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
