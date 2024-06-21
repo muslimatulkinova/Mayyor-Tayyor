@@ -3,27 +3,25 @@
     background-color: #FEFEFE;
 }
 
-.header{
-    min-width: 1442px;
+.nav-wrapper{
     padding-top: 26px;
-    padding-left: 242px;
-    padding-right: 242px;
-    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 32px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    border-bottom: 1px solid #E2E2E2;
 }
 
 .mt-delivery{
-    display: inline-block;
-    padding-top: 78px;
     font-weight: 400;
     font-size: 16px;
     line-height: 25.04px;
-    padding-bottom: 35px;
 }
 
 .mt-btn{
-    padding-top: 73px;
     color: black;
     font-size: 16px;
     line-height: 19.41px;
@@ -31,7 +29,17 @@
     display: flex;
     justify-content: space-between;
     gap: 32px;
-    padding-bottom: 44px;
+}
+
+.mt-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
 }
 
 .mt-login{
@@ -379,44 +387,6 @@
     padding-left: 60px;
 }
 
-/* .process-content{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 60px;
-    padding-bottom: 64px;
-}
-
-.process-type{
-    display: flex;
-    justify-content: space-between;
-    gap: 51px;
-    padding-left: 60px;
-}
-
-.process-del{
-     padding-left: 60px; 
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23.49px;
-    border-bottom: 1px solid black;
-    padding-bottom: 8px;
-}
-
-.process-pu{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 23.49px;
-    color: #8B8B8B;
-}
-
-.process-order{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 31.32px;
-    padding-right: 420px;
-} */
-
 .row{
     display: flex;
     justify-content: space-between;
@@ -520,15 +490,14 @@
 }
 
 .ord-btn{
-    width: 344px;
-    height: 72px;
-    border-radius: 10px;
-    border: 1px solid #F9CE03;
     background-color: #F9CE03;
 }
 
 .ord-btn button{
-    border: none;
+    width: 344px;
+    height: 72px;
+    border: 1px solid #F9CE03;
+    border-radius: 10px;
     background-color: #F9CE03;
 }
 
@@ -564,4 +533,71 @@
 .mt-input3{
     width: 722px;
     height: 138px;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.wrapper-content{
+    max-width: 820px;
+}
+
+.wrapper-header{
+    padding-bottom: 75px;
+}
+
+.wrapper-title, .wrapper-text1, .wrapper-text2, .wrapper-text3{
+    padding-bottom: 15px;
+}
+
+.about-img{
+    padding-top: 82px;
+    max-width: 1439px;
+}
+
+.error-content{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.error404{
+    font-weight: 500;
+    font-size: 144px;
+    line-height: 187.92px;
+    padding-bottom: 40px;
+}
+
+.error-text{
+    padding-bottom: 52px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.32px;
+}
+
+.er-btn{
+    padding-bottom: 150px;
+}
+
+.er-btn button{
+    width: 344px;
+    height: 72px;
+    border: 1px solid #F9CE03;
+    border-radius: 10px;
+    background-color: #F9CE03;
+}
+
+.er-btn button a{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.05px;
 }
