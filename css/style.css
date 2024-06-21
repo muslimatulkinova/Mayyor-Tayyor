@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color: #FEFEFE;
 }
 
 .nav-wrapper{
@@ -13,6 +12,38 @@
 
 .header{
     border-bottom: 1px solid #E2E2E2;
+}
+
+.header-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.04px;
+}
+
+.header-cont{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20.35px;
+}
+
+.header-restaurant{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25.04px;
+}
+
+.header-rest{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25.04px;
+    font-style: italic;
+}
+
+.mt-logo span{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.13px;
+    letter-spacing: 0.265em;
 }
 
 .mt-delivery{
@@ -80,8 +111,8 @@
     line-height: 43.57px;
 }
 
-.nav{
-    border: 1px solid black;
+.mt-carousel{
+    padding-top: 43px;
 }
 
 .mt-content{
@@ -165,6 +196,7 @@
 
 .plus-btn, .minus-btn{
     border: none;
+    background-color: transparent;
 }
 
 .item-btn span{
@@ -191,7 +223,6 @@
 .mt-title-salat{
     text-align: center;
     padding-top: 106px;
-    /* padding-bottom: 45px; */
     font-weight: 600;
     font-size: 36px;
     line-height: 43.57px;
@@ -225,6 +256,10 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 43.57px;
+}
+
+.mt-diet{
+    padding-bottom: 150px;
 }
 
 .mt-title-diet{
@@ -535,10 +570,6 @@
     height: 138px;
 }
 
-.footer-logo{
-    display: flex;
-}
-
 .about-content{
     display: flex;
     justify-content: space-between;
@@ -560,6 +591,7 @@
 .about-img{
     padding-top: 82px;
     max-width: 1439px;
+    padding-bottom: 150px;
 }
 
 .error-content{
@@ -600,4 +632,121 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 22.05px;
+}
+
+.footer{
+    background-color: #C9CACC;
+}
+
+.footer-content{
+    padding-top: 144px;
+}
+
+.footer-logo{
+    display: flex;
+    padding-left: 150px;
+}
+
+.footer-logo img{
+    margin-right: 3px;
+    max-width: 50px;
+    height: 51px;
+}
+
+.footer-restaurant{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25.04px;
+}
+
+.footer-rest{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25.04px;
+    font-style: italic;
+}
+
+.footer-menu h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    padding-bottom: 20px;
+}
+
+.footer-menu2 h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    padding-bottom: 28px;
+}
+
+.menu-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 34.85px;
+}
+
+.footer-del{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20.41px;
+}
+
+.footer-cont{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20.41px;
+}
+
+.hours-item2{
+    padding-top: 12px;
+}
+
+.footer-days{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20.51px;
+}
+
+.footer-hours{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.25px;
+}
+
+.footer-sm{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 57px;
+    border-bottom: 1px solid #BFBFBF;
+}
+
+.footer-sm-wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-sm1{
+    padding-left: 720px;
+}
+
+.footer-sm4{
+    padding-left: 180px;
+    padding-right: 30px;
+}
+
+.footer-copyright{
+    text-align: center;
+    padding: 32px 0 32px 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28.44px;
+    color: #686868;
 }
