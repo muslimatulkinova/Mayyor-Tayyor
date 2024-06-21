@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.mt-nav{
+    margin: 0 auto;
+}
+
 .nav-wrapper{
     padding-top: 26px;
     padding-bottom: 32px;
@@ -96,10 +100,6 @@
 
 .mt-basket span{
     background-color: #F9CE03;
-}
-
-.container{
-    max-width: 1442px;
 }
 
 .mt-title{
@@ -749,4 +749,8 @@
     font-weight: 500;
     line-height: 28.44px;
     color: #686868;
+}
+
+@media screen and (max-width: 768px){
+    
 }
