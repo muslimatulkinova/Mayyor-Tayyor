@@ -3,6 +3,9 @@
 }
 
 .mt-nav{
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
     border-bottom: 1px solid #E6E6E6;
     border-top: 1px solid #E6E6E6;
 }
@@ -767,6 +770,13 @@
     color: #686868;
 }
 
+
+
 @media screen and (max-width: 768px){
-    
+    .mt-item{
+        flex: 0 0 50%;
+        max-width: 318px;
+        padding: 0 32px;
+        padding-bottom: 60px;
+    }
 }
